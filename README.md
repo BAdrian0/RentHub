@@ -25,8 +25,11 @@ The current version of RentHub includes the following features:
 To get started with the application, follow these steps:
 
 - Clone the repository
-- Install the dependencies: npm install
-- Start the application: npm start
+- Install dependencies for both the backend and frontend using Maven and npm respectively.
+- Create a PostgreSql database named renthub_db and configure the application.properties file with your database credentials.
+- Run the backend Spring Boot application using your preferred IDE or the command line: mvn spring-boot:run
+- Run the frontend React application using the command line: npm start
+- Open http://localhost:3000 in your web browser to view the RentHub website.
 
 ### Screenshots
 
